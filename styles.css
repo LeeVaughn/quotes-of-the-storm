@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #000 url("https://regularlyscheduledprogrammingblog.files.wordpress.com/2018/01/space-background.jpg") no-repeat center / cover;
+}
+
+header {
+    text-align: center;
+    background: url("https://regularlyscheduledprogrammingblog.files.wordpress.com/2018/01/heroes-of-the-storm-logo1.png") no-repeat top center / cover;
+    color: #fff
+}
