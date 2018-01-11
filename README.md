@@ -5,4 +5,6 @@ This project was a part of the freeCodeCamp Front End Development Certification.
 
 You can find more information on the rules of the project here: https://www.freecodecamp.org/challenges/build-a-random-quote-machine
 
-If you have any cool Heroes of the Storm quotes you would like to see added you are welcome to submit a pull request and add them to the quotesArray or send me a note on twitter @dlvprogramming
+If you have any cool Heroes of the Storm quotes you would like to see added you are welcome to submit a pull request and add them to the quotesArray or send me a note on twitter <a href="https://twitter.com/DLVProgramming">@dlvprogramming</a>.
+
+Click <a href="https://leevaughn.github.io/quotes-of-the-storm/">here</a> to view the Quotes of the Storm website.
