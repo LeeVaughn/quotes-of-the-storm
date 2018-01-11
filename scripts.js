@@ -1,4 +1,10 @@
 $(document).ready(function () {
+    var randomNumber;
+    var randomQuote;
+    var randomSource;
+
+    getQuote();
+
     function getQuote() {
         var quotesArray = [
             ["Stay positive and don’t die.", "- William 'Drated Cuz' Broyles"],
@@ -72,7 +78,7 @@ $(document).ready(function () {
             ["I'm not shouting! This is my inside voice.", "- Ragnaros"],
             ["So, you ever hear what happens when you play StarCraft backwards? I get my vulture back, I get my girl back, my planet isn’t glassed by the Protoss, and things are peachy keen.", "- Raynor"],
             ["Just to be clear, all the loot we get from this is mine. I need it for... hmm, hunter reasons!", "- Rexxar"],
-            ["I keep killing, but no loot comes out. This game makes no sense.", "Sonya"],
+            ["I keep killing, but no loot comes out. This game makes no sense.", "- Sonya"],
             ["Naked good... Clothes bad.", "- Stitches"],
             ["Take your Warchief's advice: Don't run around doing stupid things just because someone yells 'For the Horde!'", "- Thrall"],
             ["So what’s the deal with this Nexus place? We just fight each other forever?", "- Tychus"],
@@ -88,13 +94,22 @@ $(document).ready(function () {
             ["Is that a frog in a bubble?", "- Tracer"],
             ["This place is awesome!", "- Tracer"],
         ];
-        var randomNumber = Math.floor((Math.random() * quotesArray.length));
-        var randomQuote = quotesArray([randomNumber]);
-        var randomSource = quotesArray([randomNumber], [1]);
-        $(".quote").text(randomQuote);
+        randomNumber = Math.floor(Math.random() * quotesArray.length);
+        randomQuote = quotesArray[randomNumber][0];
+        randomSource = quotesArray[randomNumber][1];
+
+        $(".quote").text('"' + randomQuote + '"');
         $(".source").text(randomSource);
+
     }
+
+    $('#tweet').on("click", function () {
+        window.open("https://twitter.com/intent/tweet?hashtags=QuotesoftheStorm,BlizzHeroes&text=" + "'" + randomQuote + "'  " + randomSource);
+    });
+
     $(".button").on("click", function () {
         getQuote();
+
     });
+
 });
