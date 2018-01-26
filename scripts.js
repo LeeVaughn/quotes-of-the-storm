@@ -107,8 +107,7 @@ $(document).ready(function () {
         window.open("https://twitter.com/intent/tweet?hashtags=QuotesoftheStorm,BlizzHeroes&text=" + "'" + randomQuote + "'  " + randomSource);
     });
 
-    $(".button").on("click", function () {
-        getQuote();
+    $(".button").on("click", getQuote);
 
     });
 
