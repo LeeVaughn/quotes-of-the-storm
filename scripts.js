@@ -93,6 +93,13 @@ $(document).ready(function () {
             ["Conversation superfluous. Focus upon combat.", "- Abathur"],
             ["Is that a frog in a bubble?", "- Tracer"],
             ["This place is awesome!", "- Tracer"],
+            ["The only good mage is a dead mage.", "- Maiev"],
+            ["I used to think justice was blind...and then I met Illidan.", "- Maiev"],
+            ["Nothing escapes my sight. Not even when I blink.", "- Maiev"],
+            ["I will never forgive Cordana for betraying us. But after dealing with Khadgar, I can see why she lost her sanity.", "- Maiev"],
+            ["My umbra crescent is a formidable weapon, but my skills are what make me dangerous. A warden's true power comes from beyond the glaive.", "- Maiev"],
+            ["MI have no idea where my brother Jarod went during his long exile. Am I my brother's keeper? No...I'm Illidan's keeper!", "- Maiev"],
+            ["Into the pill box!", "- Cpl. Miles 'Blaze' Lewis"],
         ];
         randomNumber = Math.floor(Math.random() * quotesArray.length);
         randomQuote = quotesArray[randomNumber][0];
