@@ -100,6 +100,17 @@ $(document).ready(function () {
             ["My umbra crescent is a formidable weapon, but my skills are what make me dangerous. A warden's true power comes from beyond the glaive.", "- Maiev"],
             ["MI have no idea where my brother Jarod went during his long exile. Am I my brother's keeper? No...I'm Illidan's keeper!", "- Maiev"],
             ["Into the pill box!", "- Cpl. Miles 'Blaze' Lewis"],
+            ["I'm always hot...and bothered.", "- Cpl. Miles 'Blaze' Lewis"],
+            ["Is it hot here or is it just me?", "- Cpl. Miles 'Blaze' Lewis"],
+            ["Anyone got a favorite campfire song? Because I got the campfire! Oh, and smores!", "- Cpl. Miles 'Blaze' Lewis"],
+            ["Well I didn't start the fire... Oh wait. Yes I did!", "- Cpl. Miles 'Blaze' Lewis"],
+            ["Let us slay this together, as the best of friends!", "- Brightwing"],
+            ["You sure are good at murder!", "- Brightwing"],
+            ["Friend?", "- Brightwing"],
+            ["Let us be friends. You don't want to be my enemy.", "- Brightwing"],
+            ["No one likes you and now you are dead.", "- Brightwing"],
+            ["You should meet my twin brother Darkwing. He is not very nice.", "- Brightwing"],
+            ["Why no fight? Are you scared or dumb? Maybe both!", "- Brightwing"],
         ];
         randomNumber = Math.floor(Math.random() * quotesArray.length);
         randomQuote = quotesArray[randomNumber][0];
