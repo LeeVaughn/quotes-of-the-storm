@@ -111,6 +111,12 @@ $(document).ready(function () {
             ["No one likes you and now you are dead.", "- Brightwing"],
             ["You should meet my twin brother Darkwing. He is not very nice.", "- Brightwing"],
             ["Why no fight? Are you scared or dumb? Maybe both!", "- Brightwing"],
+            ["You...are fish.", "- Genji"],
+            ["Drop your weapon. You have fifteen seconds to comply.", "- Fenix"],
+            ["I wish the phase-smiths would clean my tank once in a while. I think I saw a fish in here.", "- Fenix"],
+            ["For the last time, I do not have a graviton beam. You are think of a different Protoss Phoenix.", "- Fenix"],
+            ["So Artanis is a hierarch now? Most impressive. What's a hierarch?", "- Fenix"],
+            ["I have returned.", "- Fenix"]
         ];
         randomNumber = Math.floor(Math.random() * quotesArray.length);
         randomQuote = quotesArray[randomNumber][0];
