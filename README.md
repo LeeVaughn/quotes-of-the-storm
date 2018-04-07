@@ -22,6 +22,7 @@ If you have any cool Heroes of the Storm related quotes you would like to see in
 
 ## Links
 Project homepage: https://leevaughn.github.io/quotes-of-the-storm/
+
 Repository: https://github.com/LeeVaughn/quotes-of-the-storm
 
 ## Author
