@@ -117,6 +117,14 @@ $(document).ready(function () {
             ["For the last time, I do not have a graviton beam. You are think of a different Protoss Phoenix.", "- Fenix"],
             ["So Artanis is a hierarch now? Most impressive. What's a hierarch?", "- Fenix"],
             ["I have returned.", "- Fenix"]
+            ["Has anyone seen my dear neice, Leah?", "- Deckard Cain"],
+            ["I hope you are better prepared for this than I am.", "- Deckard Cain"],
+            ["That was for Tristram!", "- Deckard Cain"],
+            ["Maybe now you will learn to respect your elders.", "- Deckard Cain"],
+            ["Where is my staff?", "- Deckard Cain"],
+            ["You better not be looking for black mushrooms over there.", "- Deckard Cain"],
+            ["Stay awhile and listen.", "- Deckard Cain"],
+            ["Wisdom can be deadly!", "- Deckard Cain"]
         ];
         randomNumber = Math.floor(Math.random() * quotesArray.length);
         randomQuote = quotesArray[randomNumber][0];
