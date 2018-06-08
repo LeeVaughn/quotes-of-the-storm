@@ -124,7 +124,16 @@ $(document).ready(function () {
             ["Where is my staff?", "- Deckard Cain"],
             ["You better not be looking for black mushrooms over there.", "- Deckard Cain"],
             ["Stay awhile and listen.", "- Deckard Cain"],
-            ["Wisdom can be deadly!", "- Deckard Cain"]
+            ["Wisdom can be deadly!", "- Deckard Cain"],
+            ["Vamalos!", "- El Guapo"],
+            ["Talent? Hah. That seems generous.", "- Raven Lord"],
+            ["That was rather violent.", "- Raven Lord"],
+            ["Might I suggest dodging?", "- Raven Lord"],
+            ["It's actually quite easy to crash into a planet. My people have done it before.", "- Yrel"],
+            ["Oh great, now I'm running late. If I want to rejoin the fight I'll really have to hoof it.", "- Yrel"],
+            ["It's just business.", "- Mira Han"],
+            ["Double the Mira, double the fun!", "- Mira Han"],
+            ["Vital signs negative.", "- Adjutant"]
         ];
         randomNumber = Math.floor(Math.random() * quotesArray.length);
         randomQuote = quotesArray[randomNumber][0];
