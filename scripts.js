@@ -45,7 +45,7 @@ const quotesArray = [
     ["So, the Spear of Adun is right above me, yet Phasesmith Karax is nowhere to be found? Typical...", "- Artanis"],
     ["Darkness stopped calling. It’s alright, though. We are still friends through Real ID.", "- Arthas"],
     ["Ever get the feeling you're hearing voices in your helmet?", "- Arthas"],
-    ["I will be twice the king my father was... And three times the dancer!", "- Arthas"],
+    ["I will be twice the king my father was... and three times the dancer!", "- Arthas"],
     ["I once had a horse named Invincible. Turns out, he wasn't.", "- Arthas"],
     ["Leading the Sin Lieutenants is not easy. Sloth is late. Wrath is belligerent. Pride thinks Greed is stealing. Envy is jealous Greed gets away with it. And Gluttony tries to eat everyone. As for Lust, well, she is very... Distracting.", "- Azmodan"],
     ["Can everyone just stop for a moment? I need to write a series of log books about this battle, and then spend some time scattering them about.", "- Azmodan"],
@@ -126,6 +126,8 @@ const quotesArray = [
     ["Double the Mira, double the fun!", "- Mira Han"],
     ["Vital signs negative.", "- Adjutant"]
 ];
+let randomQuote;
+let randomSource;
 
 function getQuote() {
     const randomNumber = Math.floor(Math.random() * quotesArray.length);
@@ -135,16 +137,16 @@ function getQuote() {
 
 function printQuote() {
     const currentArray = getQuote();
-    const randomQuote = currentArray[0];
-    const randomSource = currentArray[1];
+    randomQuote = currentArray[0];
+    randomSource = currentArray[1];
 
     $(".quote").text(`"${randomQuote}"`);
     $(".source").text(randomSource);
-
-    $('#tweet').on("click", function () {
-        window.open(`https://twitter.com/intent/tweet?hashtags=QuotesoftheStorm,BlizzHeroes&text=${randomQuote} ${randomSource}`);
-    });
 }
+
+$('#tweet').on("click", function () {
+    window.open(`https://twitter.com/intent/tweet?hashtags=QuotesoftheStorm,BlizzHeroes&text=${randomQuote} ${randomSource}`);
+});
 
 $(".button").on("click", printQuote);
 
