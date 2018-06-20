@@ -124,7 +124,8 @@ const quotesArray = [
     ["Oh great, now I'm running late. If I want to rejoin the fight I'll really have to hoof it.", "- Yrel"],
     ["It's just business.", "- Mira Han"],
     ["Double the Mira, double the fun!", "- Mira Han"],
-    ["Vital signs negative.", "- Adjutant"]
+    ["Vital signs negative.", "- Adjutant"],
+    ["I've got a short fuse. Deal with it.", "- Junkrat"]
 ];
 let randomQuote;
 let randomSource;
