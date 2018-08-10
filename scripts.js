@@ -127,7 +127,8 @@ const quotesArray = [
     ["Vital signs negative.", "- Adjutant"],
     ["I've got a short fuse. Deal with it.", "- Junkrat"],
     ["I'm not bad. I'm just rendered that way.", "- Sally Whitemane"],
-    ["No one expects the Scarlet Inquisition!", "- Sally Whitemane"]
+    ["No one expects the Scarlet Inquisition!", "- Sally Whitemane"],
+    ["I'd mana tap that.", "- Kael'thas"]
 ];
 let randomQuote;
 let randomSource;
