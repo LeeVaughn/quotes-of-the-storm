@@ -128,7 +128,17 @@ const quotesArray = [
     ["I've got a short fuse. Deal with it.", "- Junkrat"],
     ["I'm not bad. I'm just rendered that way.", "- Sally Whitemane"],
     ["No one expects the Scarlet Inquisition!", "- Sally Whitemane"],
-    ["I'd mana tap that.", "- Kael'thas"]
+    ["I'd mana tap that.", "- Kael'thas"],
+    ["For the last time. I am not a turtle. I am eternal!", "- Mal'Ganis"],
+    ["A word of advice. The ability to incapacitate your enemies is extremely valuable. I wouldn't sleep on it if I were you.", "- Mal'Ganis"],
+    ["Have you heard the one about the Nathrazim baker? He was a breadlord!", "- Mal'Ganis"],
+    ["I am Mal'Ganis. I do not apologize.", "- Mal'Ganis"],
+    ["You really don't want to know what's in the box.", "- Orphea"],
+    ["My father would be so mad about this.", "- Orphea"],
+    ["What's up. I'm Kevin from the Heroes Dev Team and I am here to announce your game.", "- Kevin Johnson"],
+    ["Oooo! That guy didn't read the patch notes.", "- Kevin Johnson"],
+    ["Ma ma ma megakill!", "- Kevin Johnson"],
+    ["Ha ha ha. I don't know what to say.", "- Kevin Johnson"]
 ];
 let randomQuote;
 let randomSource;
