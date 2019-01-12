@@ -138,7 +138,10 @@ const quotesArray = [
     ["What's up. I'm Kevin from the Heroes Dev Team and I am here to announce your game.", "- Kevin Johnson"],
     ["Oooo! That guy didn't read the patch notes.", "- Kevin Johnson"],
     ["Ma ma ma megakill!", "- Kevin Johnson"],
-    ["Ha ha ha. I don't know what to say.", "- Kevin Johnson"]
+    ["Ha ha ha. I don't know what to say.", "- Kevin Johnson"],
+    ["Mercy is a sign of weakness.", "- Imperius"],
+    ["So easy, Tyrael could do it.", "- Imperius"],
+    ["Demons beware! This archangel is packing heat.", "- Imperius"]
 ];
 let randomQuote;
 let randomSource;
