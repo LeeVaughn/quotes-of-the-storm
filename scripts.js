@@ -141,7 +141,11 @@ const quotesArray = [
     ["Ha ha ha. I don't know what to say.", "- Kevin Johnson"],
     ["Mercy is a sign of weakness.", "- Imperius"],
     ["So easy, Tyrael could do it.", "- Imperius"],
-    ["Demons beware! This archangel is packing heat.", "- Imperius"]
+    ["Demons beware! This archangel is packing heat.", "- Imperius"],
+    ["Diplomacy is the art of knowing precisely what to say. Right now, try nothing.", "- Anduin"],
+    ["You know I'm king now, right?.", "- Anduin"],
+    ["For the Alliance!", "- Anduin"],
+    ["I'll try my best, but you should get to a healing fountain soon.", "- Anduin"]
 ];
 let randomQuote;
 let randomSource;
