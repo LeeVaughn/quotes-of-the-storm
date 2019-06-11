@@ -146,7 +146,8 @@ const quotesArray = [
     ["You know I'm king now, right?.", "- Anduin"],
     ["For the Alliance!", "- Anduin"],
     ["I'll try my best, but you should get to a healing fountain soon.", "- Anduin"],
-    ["So... you're a zerg now, huh? Sucks to be you.", "- Tychus"]
+    ["So... you're a zerg now, huh? Sucks to be you.", "- Tychus"],
+    ["Boy howdy, you earth folks have issues.", "- Tychus"]
 ];
 let randomQuote;
 let randomSource;
