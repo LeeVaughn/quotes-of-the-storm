@@ -145,7 +145,8 @@ const quotesArray = [
     ["Diplomacy is the art of knowing precisely what to say. Right now, try nothing.", "- Anduin"],
     ["You know I'm king now, right?.", "- Anduin"],
     ["For the Alliance!", "- Anduin"],
-    ["I'll try my best, but you should get to a healing fountain soon.", "- Anduin"]
+    ["I'll try my best, but you should get to a healing fountain soon.", "- Anduin"],
+    ["So... you're a zerg now, huh? Sucks to be you.", "- Tychus"]
 ];
 let randomQuote;
 let randomSource;
