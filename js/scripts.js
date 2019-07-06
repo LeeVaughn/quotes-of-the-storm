@@ -175,6 +175,7 @@ function getQuote() {
     }
 }
 
+// calls the getQuote function and then uses the returned array to display a new quote
 function printQuote() {
     const currentArray = getQuote();
     randomQuote = currentArray[0];
@@ -184,10 +185,13 @@ function printQuote() {
     $(".source").text(randomSource);
 }
 
+// click event to allow the user to share the current quote on Twitter
 $('#tweet').on("click", function () {
     window.open(`https://twitter.com/intent/tweet?hashtags=QuotesoftheStorm,BlizzHeroes&text=${randomQuote} ${randomSource}`);
 });
 
+// click even to generate new quote
 $(".button").on("click", printQuote);
 
+// calls the printQuote function when the page loads
 printQuote();
