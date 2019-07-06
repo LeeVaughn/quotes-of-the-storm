@@ -104,7 +104,7 @@ const quotesArray = [
     ["You...are fish.", "- Genji"],
     ["Drop your weapon. You have fifteen seconds to comply.", "- Fenix"],
     ["I wish the phase-smiths would clean my tank once in a while. I think I saw a fish in here.", "- Fenix"],
-    ["For the last time, I do not have a graviton beam. You are think of a different Protoss Phoenix.", "- Fenix"],
+    ["For the last time, I do not have a graviton beam. You are thinking of a different Protoss Phoenix.", "- Fenix"],
     ["So Artanis is a hierarch now? Most impressive. What's a hierarch?", "- Fenix"],
     ["I have returned.", "- Fenix"],
     ["Has anyone seen my dear neice, Leah?", "- Deckard Cain"],
