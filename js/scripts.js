@@ -82,7 +82,6 @@ const quotesArray = [
     ["Need a light?", "- Cpl. Miles 'Blaze' Lewis"],
     ["Barbeque time!", "- Cpl. Miles 'Blaze' Lewis"],
     ["Work harder. Faster. Make better. Stronger. Evolution never over.", "- Abathur"],
-    ["Conversation superfluous. Focus upon combat.", "- Abathur"],
     ["Is that a frog in a bubble?", "- Tracer"],
     ["This place is awesome!", "- Tracer"],
     ["The only good mage is a dead mage.", "- Maiev"],
@@ -98,7 +97,6 @@ const quotesArray = [
     ["Well I didn't start the fire... Oh wait. Yes I did!", "- Cpl. Miles 'Blaze' Lewis"],
     ["Let us slay this together, as the best of friends!", "- Brightwing"],
     ["You sure are good at murder!", "- Brightwing"],
-    ["Friend?", "- Brightwing"],
     ["Let us be friends. You don't want to be my enemy.", "- Brightwing"],
     ["No one likes you and now you are dead.", "- Brightwing"],
     ["You should meet my twin brother Darkwing. He is not very nice.", "- Brightwing"],
@@ -149,13 +147,32 @@ const quotesArray = [
     ["So... you're a zerg now, huh? Sucks to be you.", "- Tychus"],
     ["Boy howdy, you earth folks have issues.", "- Tychus"]
 ];
+// will be used to store previously returned quotes
+const quotesReturned = [];
 let randomQuote;
 let randomSource;
 
+/**
+ * selects a random quote object from the quotesArray array
+ * @return {object} randomly selected array from quotesArray
+ */
 function getQuote() {
-    const randomNumber = Math.floor(Math.random() * quotesArray.length);
+    // if no objects remain in the quotes array, restores the quotes array to its original state by combining the two arrays
+    if (quotesArray.length === 0) {
+        quotes.push.apply(quotes, quotesReturned);
+    }
+    
+    while (quotesArray.length > 0) {
+        const randomNumber = Math.floor(Math.random() * quotesArray.length);
+        const quote = quotesArray[randomNumber];
 
-    return quotesArray[randomNumber];
+        // adds the selected quote to the quotesReturned array
+        quotesReturned.push(quote);
+        // removes the selected quote from the quotes array
+        quotesArray.splice(randomNumber, 1);
+
+        return quote;
+    }
 }
 
 function printQuote() {
